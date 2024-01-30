@@ -41,7 +41,7 @@ function M.setup(config)
 		"TextChanged",
 		"InsertLeave",
 	}, {
-		pattern = { "*.html", "*.svelte", "*.astro", "*.vue", "*.tsx" },
+		pattern = { "*.html", "*.svelte", "*.astro", "*.vue", "*.tsx","*.html.erb" },
 		callback = function(args)
 			if not vim.b.fold_enabled then
 				return
